@@ -1,0 +1,35 @@
+/*Shows 'include' directive of compiler
+and using functions in io library.
+IMPORTANT:Before running this code
+compile io.dll to same 
+folder with this file.*/
+ 
+main()
+{
+include io;
+int fn;
+
+fn=fopen(app_path&"\levent.txt","w");
+
+fwrite(fn,inputbox("write here something"));
+fclose(fn);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

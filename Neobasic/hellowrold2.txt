@@ -1,0 +1,18 @@
+main()
+{
+/*Simple demonstration of Hello World!
+Shows how to call a function inside a function
+However be careful not to call multiple arg'ed
+functions inside another function.
+Says hello to user,after asking his/her name*/
+
+msgbox("Hello " & inputbox("your name","title","levent") & "!",64);
+/*another comment just to check comment system, this shouldn't be compiled msgbox("hello sucker");*/
+
+
+}
+
+
+
+
+
