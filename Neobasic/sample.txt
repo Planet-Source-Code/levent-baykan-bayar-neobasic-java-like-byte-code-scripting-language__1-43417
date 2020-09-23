@@ -1,0 +1,59 @@
+main()
+{
+/*include main;*/
+int jk;
+int st;int et;
+int poke;
+
+msgbox("Hello,we will run a test on your PC to show speed of script engine.
+Please be patient,this will take  10 -15 secs. on a P3");
+
+st=tick();
+
+/*if msgbox("Should I close?",4)=6;
+'msgbox("Closing.");
+'end();
+'else;
+'msgbox("Not closing.");
+'jk=0;*/
+
+while jk<1000;
+poke=17+(23*21);
+poke=sqr(jk)+(jk*25);
+jk=jk+1;
+wend;
+et=tick();
+
+'endif;
+msgbox("Completed in " & (et-st)/1000 & " secs.",0,poke);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

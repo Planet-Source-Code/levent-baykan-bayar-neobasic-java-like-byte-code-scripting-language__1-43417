@@ -1,0 +1,6 @@
+include io
+int fn
+assign fn=fopen(app_path&"\levent.txt","w")
+proc call fwrite(fn,inputbox("write here something"))
+proc call fclose(fn)
+gotolabel 
